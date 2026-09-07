@@ -1,0 +1,23 @@
+{
+  "model": "Raw SVI",
+  "expiry_structure": "One fixed option expiry observed across multiple dates",
+  "final_ridge_lambda": 1e-06,
+  "ridge_parameters": [
+    "w_min",
+    "b",
+    "rho",
+    "m",
+    "svi_sigma"
+  ],
+  "ridge_scales": {
+    "w_min": 0.00132141999707356,
+    "b": 0.08187065331713456,
+    "rho": 0.03157950103423232,
+    "m": 0.092832141735551,
+    "svi_sigma": 0.08132092318589984
+  },
+  "objective": "Weighted total-variance MSE plus lambda times mean squared standardized change from the previous date",
+  "n_dates": 103,
+  "n_observations": 22117,
+  "final_pooled_iv_rmse_pp": 0.7574187936369032
+}

@@ -1,0 +1,33 @@
+# Python environments
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Mac files
+.DS_Store
+__MACOSX/
+
+# Raw/restricted data
+data/*.csv
+data/*.xlsx
+data/*.parquet
+
+# Large/intermediate model outputs
+outputs/*predictions*.csv
+outputs/tables/*predictions*.csv
+outputs/tables/model_ready_option_quotes.csv
+outputs/regularized_svi_all_lambda_predictions.csv
+outputs/regularized_svi_predictions_lambda_*.csv
+
+# Exported duplicate notebooks/reports
+outputs/v1_exploration_final.ipynb
+outputs/v1_exploration_final.html
+
+# Logs/cache
+*.log
+.cache/.Rhistory
